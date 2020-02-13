@@ -20,5 +20,5 @@ Run this image:
 
 ```console
 $ docker run --name fedora-apache-php \
-	-d tglab/fedora-apache-php:latest
+	-d tglab/fedora-apache-php:30
 ```
