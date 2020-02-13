@@ -1,4 +1,4 @@
-FROM fedora:31
+FROM fedora:30
 LABEL maintainer "Tsvetan Gerov <tg@linux-bg.com>"
 RUN dnf -y update && dnf -y install httpd php php-gd php-pdo php-mbstring php-pear php-mysqlnd supervisor && dnf clean all
 RUN mkdir -p /run/php-fpm
